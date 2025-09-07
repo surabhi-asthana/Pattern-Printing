@@ -10,7 +10,11 @@ def generate(numRows):
         a.append(b)
     return(a)
 n=int(input("Enter number of rows: "))
-print(generate(n))
+a=generate(n)
+for i in range(0,len(a)):
+    print(a[i],"\n")
+
+    
 
 
 
